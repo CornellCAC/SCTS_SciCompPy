@@ -83,7 +83,7 @@ Steps
 * Once you have an account, sign up, and click the button labeled "Start Runtime".  You only need a CPU runtime to carry out the exercises in this notebook.
 * Once the runtime is started, click "Open Project", which should put you in a JupyterLab environment.
 * At this point, you have one of two options: (1) Upload the file manually to SageMaker, or (2) Clone the repository from github.com within your SageMaker account.
-  * Either Use the file upload icon near the upper left (upward pointing arrow) to upload the notebook "Scientific_Computing_with_Python.ipynb".
+  * Either use the file upload icon near the upper left (upward pointing arrow) to upload the notebook "Scientific_Computing_with_Python.ipynb".
   * Or click the "Git" menu entry at the top, and then click "Clone Git Repository".  For the URL, enter https://github.com/CornellCAC/SCTS_SciCompPy.git and clone it into whatever directory you want in SageMaker.  You can either uncheck the box that asks you to search for an environment.yml file, or dismiss the warning error afterwards that says such a file cannot be found.
 * Click (double-click) on the notebook you uploaded to launch it.
 * When asked about a Kernel, select "sagemaker-distribution:Python".
@@ -99,7 +99,7 @@ I have not run in SageMaker Studio myself, but I assume that it is similar to St
 
 (c) **Google Colaboratory** ( https://colab.research.google.com )
 
-Google Colaboratory (Colab) is a web service that enables users to run Jupyter notebooks and to connect with data stored in their Google Drive.  It has both free and paid versions, as well as access to both CPU-only and CPU+GPU resources.  For these exercises, we only need the default CPU runtime.
+In order to use Google Colaboratory, you will need a google account in order to sign in (e.g., can be a gmail.com address).  Google Colaboratory (Colab) is a web service that enables users to run Jupyter notebooks and to connect with data stored in their Google Drive.  It has both free and paid versions, as well as access to both CPU-only and CPU+GPU resources.  For these exercises, we only need the default CPU runtime.
 
 Steps
 * Navigate to Colab, and upload the notebook in this repository by selecting "File > Upload notebook".
