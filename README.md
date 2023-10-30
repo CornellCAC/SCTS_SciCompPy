@@ -1,4 +1,4 @@
-# Instructions for running notebook and exercises for "Scientific Computing with Python"
+# Notebook and Exercises for "Scientific Computing with Python"
 
 Chris Myers / Cornell Center for Advanced Computing / c.myers@cornell.edu
 
