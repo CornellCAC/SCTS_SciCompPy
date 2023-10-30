@@ -70,6 +70,8 @@ and then following the instructions in item (b) above in order to create a new c
 
 ### 2. Run Jupyter in the Cloud
 
+If you want to run Jupyter in the Cloud, you will need to create an account with a cloud-based JupyterLab provider.
+
 Several options exist for running Jupyter notebooks on cloud resources, including many paid options and some free ones.  We discuss a few here, in no particular order.
 
 (a) **Amazon SageMaker Studio Lab**  ( https://studiolab.sagemaker.aws/ )
@@ -80,7 +82,9 @@ Steps
 * You can sign up for a free Studio Lab account and get access to free computational resources to run this notebook and participate in this session.  **Note**: your request for an account needs to first be approved by AWS, and this might not happen immediately.  Therefore, if you want to use this option, I would suggest signing up for an account in advance of the workshop.
 * Once you have an account, sign up, and click the button labeled "Start Runtime".  You only need a CPU runtime to carry out the exercises in this notebook.
 * Once the runtime is started, click "Open Project", which should put you in a JupyterLab environment.
-* Use the file upload icon near the upper left (upward pointing arrow) to upload the notebook "Scientific_Computing_with_Python.ipynb".
+* At this point, you have one of two options: (1) Upload the file manually to SageMaker, or (2) Clone the repository from github.com within your SageMaker account.
+  * Either Use the file upload icon near the upper left (upward pointing arrow) to upload the notebook "Scientific_Computing_with_Python.ipynb".
+  * Or click the "Git" menu entry at the top, and then click "Clone Git Repository".  For the URL, enter https://github.com/CornellCAC/SCTS_SciCompPy.git and clone it into whatever directory you want in SageMaker.  You can either uncheck the box that asks you to search for an environment.yml file, or dismiss the warning error afterwards that says such a file cannot be found.
 * Click (double-click) on the notebook you uploaded to launch it.
 * When asked about a Kernel, select "sagemaker-distribution:Python".
 * **Note**: the sagemaker-distribution:Python kernel contains most of the packages we need, but it does not contain ```statsmodels``` and ```openpyxl```.  Therefore, you will need to separately install those.  In the notebook section on "Working in this notebook", there is an exercise entitled "Exercise: Do you have all the packages installed that you need?"  Run that code cell, and it should tell you what packages you need.  If you need additional packages (statsmodels, openpyxl, or something else), follow the instructions in the following cell to run something like:
